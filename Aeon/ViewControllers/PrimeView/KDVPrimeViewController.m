@@ -22,7 +22,7 @@
 
   UIBarButtonItem *addButton = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemAdd target:self action:@selector(insertNewObject:)];
   self.navigationItem.rightBarButtonItem = addButton;
-  self.detailViewController = (KDVMapViewController *)[[self.splitViewController.viewControllers lastObject] topViewController];
+  self.mapViewController = (KDVMapViewController *)[[self.splitViewController.viewControllers lastObject] topViewController];
 }
 
 
@@ -57,10 +57,10 @@
       NSIndexPath *indexPath = [self.tableView indexPathForSelectedRow];
       Event *object = [self.fetchedResultsController objectAtIndexPath:indexPath];
       KDVMapViewController *controller = (KDVMapViewController *)[[segue destinationViewController] topViewController];
-      controller.detailItem = object;
+      controller.currentPerson = object;
       controller.navigationItem.leftBarButtonItem = self.splitViewController.displayModeButtonItem;
       controller.navigationItem.leftItemsSupplementBackButton = YES;
-      self.detailViewController = controller;
+      self.mapViewController = controller;
   }
 }
 

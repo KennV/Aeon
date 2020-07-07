@@ -14,7 +14,7 @@
 
 @interface KDVPrimeViewController : UITableViewController <NSFetchedResultsControllerDelegate>
 
-@property (strong, nonatomic) KDVMapViewController *detailViewController;
+@property (strong, nonatomic) KDVMapViewController *mapViewController;
 
 @property (strong, nonatomic) NSFetchedResultsController<Event *> *fetchedResultsController;
 @property (strong, nonatomic) NSManagedObjectContext *managedObjectContext;

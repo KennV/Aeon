@@ -11,8 +11,8 @@
 
 @interface KDVMapViewController : UIViewController
 
-@property (strong, nonatomic) Event *detailItem;
-@property (weak, nonatomic) IBOutlet UILabel *detailDescriptionLabel;
+@property (strong, nonatomic) Event *currentPerson;
+@property (weak, nonatomic) IBOutlet UILabel *currentPersonLabel;
 
 @end
 
