@@ -38,12 +38,14 @@
 		38213B1324B40729007A974C /* CWGold.png in Resources */ = {isa = PBXBuildFile; fileRef = 38213B0F24B40729007A974C /* CWGold.png */; };
 		38213B1424B40729007A974C /* CWRed.png in Resources */ = {isa = PBXBuildFile; fileRef = 38213B1024B40729007A974C /* CWRed.png */; };
 		38213B1524B40729007A974C /* CWBlue.png in Resources */ = {isa = PBXBuildFile; fileRef = 38213B1124B40729007A974C /* CWBlue.png */; };
-		38213B1B24B408FA007A974C /* verb.png in Resources */ = {isa = PBXBuildFile; fileRef = 38213B1724B408FA007A974C /* verb.png */; };
 		38213B1C24B408FA007A974C /* Puerto_Rico.png in Resources */ = {isa = PBXBuildFile; fileRef = 38213B1824B408FA007A974C /* Puerto_Rico.png */; };
 		38213B1D24B408FA007A974C /* India.png in Resources */ = {isa = PBXBuildFile; fileRef = 38213B1924B408FA007A974C /* India.png */; };
 		38213B2024B40AE0007A974C /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 38213B1F24B40AE0007A974C /* MapKit.framework */; };
 		38213B2324B40AEC007A974C /* HealthKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 38213B2124B40AEC007A974C /* HealthKit.framework */; };
 		38213B2424B40AEC007A974C /* HealthKitUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 38213B2224B40AEC007A974C /* HealthKitUI.framework */; };
+		38213B3124B41103007A974C /* KDVAbstractDataController.m in Sources */ = {isa = PBXBuildFile; fileRef = 38213B2C24B41103007A974C /* KDVAbstractDataController.m */; };
+		38213B3224B41103007A974C /* KDVApplicationDataController.m in Sources */ = {isa = PBXBuildFile; fileRef = 38213B3024B41103007A974C /* KDVApplicationDataController.m */; };
+		38213B3424B41226007A974C /* verb.png in Resources */ = {isa = PBXBuildFile; fileRef = 38213B3324B41226007A974C /* verb.png */; };
 		383192BB24B400F80032C26B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 383192BA24B400F80032C26B /* AppDelegate.m */; };
 		383192BE24B400F80032C26B /* Aeon.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 383192BC24B400F80032C26B /* Aeon.xcdatamodeld */; };
 		383192C124B400F80032C26B /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 383192C024B400F80032C26B /* SceneDelegate.m */; };
@@ -106,12 +108,16 @@
 		38213B0F24B40729007A974C /* CWGold.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CWGold.png; sourceTree = "<group>"; };
 		38213B1024B40729007A974C /* CWRed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CWRed.png; sourceTree = "<group>"; };
 		38213B1124B40729007A974C /* CWBlue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CWBlue.png; sourceTree = "<group>"; };
-		38213B1724B408FA007A974C /* verb.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = verb.png; path = ../Flags/verb.png; sourceTree = "<group>"; };
 		38213B1824B408FA007A974C /* Puerto_Rico.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Puerto_Rico.png; sourceTree = "<group>"; };
 		38213B1924B408FA007A974C /* India.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = India.png; sourceTree = "<group>"; };
 		38213B1F24B40AE0007A974C /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		38213B2124B40AEC007A974C /* HealthKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HealthKit.framework; path = System/Library/Frameworks/HealthKit.framework; sourceTree = SDKROOT; };
 		38213B2224B40AEC007A974C /* HealthKitUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HealthKitUI.framework; path = System/Library/Frameworks/HealthKitUI.framework; sourceTree = SDKROOT; };
+		38213B2C24B41103007A974C /* KDVAbstractDataController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KDVAbstractDataController.m; sourceTree = "<group>"; };
+		38213B2D24B41103007A974C /* KDVAbstractDataController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KDVAbstractDataController.h; sourceTree = "<group>"; };
+		38213B2F24B41103007A974C /* KDVApplicationDataController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KDVApplicationDataController.h; sourceTree = "<group>"; };
+		38213B3024B41103007A974C /* KDVApplicationDataController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KDVApplicationDataController.m; sourceTree = "<group>"; };
+		38213B3324B41226007A974C /* verb.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = verb.png; sourceTree = "<group>"; };
 		383192B624B400F80032C26B /* Aeon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Aeon.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		383192B924B400F80032C26B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		383192BA24B400F80032C26B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -267,7 +273,7 @@
 		38213B1A24B408FA007A974C /* verb */ = {
 			isa = PBXGroup;
 			children = (
-				38213B1724B408FA007A974C /* verb.png */,
+				38213B3324B41226007A974C /* verb.png */,
 			);
 			path = verb;
 			sourceTree = "<group>";
@@ -280,6 +286,41 @@
 				38213B1F24B40AE0007A974C /* MapKit.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		38213B2924B41103007A974C /* DataControllers */ = {
+			isa = PBXGroup;
+			children = (
+				38213B2A24B41103007A974C /* Abstract */,
+			);
+			path = DataControllers;
+			sourceTree = "<group>";
+		};
+		38213B2A24B41103007A974C /* Abstract */ = {
+			isa = PBXGroup;
+			children = (
+				38213B2B24B41103007A974C /* KVAbstractController */,
+				38213B2E24B41103007A974C /* KVApplicationController */,
+			);
+			path = Abstract;
+			sourceTree = "<group>";
+		};
+		38213B2B24B41103007A974C /* KVAbstractController */ = {
+			isa = PBXGroup;
+			children = (
+				38213B2C24B41103007A974C /* KDVAbstractDataController.m */,
+				38213B2D24B41103007A974C /* KDVAbstractDataController.h */,
+			);
+			path = KVAbstractController;
+			sourceTree = "<group>";
+		};
+		38213B2E24B41103007A974C /* KVApplicationController */ = {
+			isa = PBXGroup;
+			children = (
+				38213B2F24B41103007A974C /* KDVApplicationDataController.h */,
+				38213B3024B41103007A974C /* KDVApplicationDataController.m */,
+			);
+			path = KVApplicationController;
 			sourceTree = "<group>";
 		};
 		383192AD24B400F80032C26B = {
@@ -344,6 +385,7 @@
 		383192F524B401590032C26B /* DATA */ = {
 			isa = PBXGroup;
 			children = (
+				38213B2924B41103007A974C /* DataControllers */,
 				383192F424B401470032C26B /* DataModel */,
 			);
 			path = DATA;
@@ -516,6 +558,7 @@
 				383192CC24B400FA0032C26B /* Assets.xcassets in Resources */,
 				38213ADF24B406CF007A974C /* Red07.png in Resources */,
 				38213ADE24B406CF007A974C /* Red05.png in Resources */,
+				38213B3424B41226007A974C /* verb.png in Resources */,
 				38213B0124B406FA007A974C /* fireEngine.png in Resources */,
 				38213B0C24B406FA007A974C /* mds-high-polished.png in Resources */,
 				383192CA24B400F80032C26B /* Main.storyboard in Resources */,
@@ -528,7 +571,6 @@
 				38213B0824B406FA007A974C /* chainwheel-red.png in Resources */,
 				38213ADC24B406CF007A974C /* Red04.png in Resources */,
 				38213B0224B406FA007A974C /* blue.png in Resources */,
-				38213B1B24B408FA007A974C /* verb.png in Resources */,
 				38213ADD24B406CF007A974C /* Red10.png in Resources */,
 				38213AE224B406CF007A974C /* Red03.png in Resources */,
 				38213AE124B406CF007A974C /* Red02.png in Resources */,
@@ -567,7 +609,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				38213B3224B41103007A974C /* KDVApplicationDataController.m in Sources */,
 				383192C724B400F80032C26B /* KDVMapViewController.m in Sources */,
+				38213B3124B41103007A974C /* KDVAbstractDataController.m in Sources */,
 				383192C424B400F80032C26B /* KDVPrimeViewController.m in Sources */,
 				383192BE24B400F80032C26B /* Aeon.xcdatamodeld in Sources */,
 				383192C124B400F80032C26B /* SceneDelegate.m in Sources */,
