@@ -1,0 +1,669 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		383192BB24B400F80032C26B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 383192BA24B400F80032C26B /* AppDelegate.m */; };
+		383192BE24B400F80032C26B /* Aeon.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 383192BC24B400F80032C26B /* Aeon.xcdatamodeld */; };
+		383192C124B400F80032C26B /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 383192C024B400F80032C26B /* SceneDelegate.m */; };
+		383192C424B400F80032C26B /* KDVPrimeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 383192C324B400F80032C26B /* KDVPrimeViewController.m */; };
+		383192C724B400F80032C26B /* KDVMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 383192C624B400F80032C26B /* KDVMapViewController.m */; };
+		383192CA24B400F80032C26B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 383192C824B400F80032C26B /* Main.storyboard */; };
+		383192CC24B400FA0032C26B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 383192CB24B400FA0032C26B /* Assets.xcassets */; };
+		383192CF24B400FA0032C26B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 383192CD24B400FA0032C26B /* LaunchScreen.storyboard */; };
+		383192D224B400FA0032C26B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 383192D124B400FA0032C26B /* main.m */; };
+		383192DC24B400FA0032C26B /* AeonTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 383192DB24B400FA0032C26B /* AeonTests.m */; };
+		383192E724B400FA0032C26B /* AeonUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 383192E624B400FA0032C26B /* AeonUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		383192D824B400FA0032C26B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 383192AE24B400F80032C26B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 383192B524B400F80032C26B;
+			remoteInfo = Aeon;
+		};
+		383192E324B400FA0032C26B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 383192AE24B400F80032C26B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 383192B524B400F80032C26B;
+			remoteInfo = Aeon;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		383192B624B400F80032C26B /* Aeon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Aeon.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		383192B924B400F80032C26B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		383192BA24B400F80032C26B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		383192BD24B400F80032C26B /* Aeon.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Aeon.xcdatamodel; sourceTree = "<group>"; };
+		383192BF24B400F80032C26B /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		383192C024B400F80032C26B /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		383192C224B400F80032C26B /* KDVPrimeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KDVPrimeViewController.h; sourceTree = "<group>"; };
+		383192C324B400F80032C26B /* KDVPrimeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KDVPrimeViewController.m; sourceTree = "<group>"; };
+		383192C524B400F80032C26B /* KDVMapViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KDVMapViewController.h; sourceTree = "<group>"; };
+		383192C624B400F80032C26B /* KDVMapViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KDVMapViewController.m; sourceTree = "<group>"; };
+		383192C924B400F80032C26B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		383192CB24B400FA0032C26B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		383192CE24B400FA0032C26B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		383192D024B400FA0032C26B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		383192D124B400FA0032C26B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		383192D724B400FA0032C26B /* AeonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AeonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		383192DB24B400FA0032C26B /* AeonTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AeonTests.m; sourceTree = "<group>"; };
+		383192DD24B400FA0032C26B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		383192E224B400FA0032C26B /* AeonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AeonUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		383192E624B400FA0032C26B /* AeonUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AeonUITests.m; sourceTree = "<group>"; };
+		383192E824B400FA0032C26B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		383192B324B400F80032C26B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		383192D424B400FA0032C26B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		383192DF24B400FA0032C26B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		383192AD24B400F80032C26B = {
+			isa = PBXGroup;
+			children = (
+				383192B824B400F80032C26B /* Aeon */,
+				383192D024B400FA0032C26B /* Info.plist */,
+				383192DA24B400FA0032C26B /* AeonTests */,
+				383192E524B400FA0032C26B /* AeonUITests */,
+				383192B724B400F80032C26B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		383192B724B400F80032C26B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				383192B624B400F80032C26B /* Aeon.app */,
+				383192D724B400FA0032C26B /* AeonTests.xctest */,
+				383192E224B400FA0032C26B /* AeonUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		383192B824B400F80032C26B /* Aeon */ = {
+			isa = PBXGroup;
+			children = (
+				383192F624B4016F0032C26B /* ApplicationSupport */,
+				383192F824B402B60032C26B /* ViewControllers */,
+				383192F724B401E90032C26B /* GUI */,
+				383192F524B401590032C26B /* DATA */,
+			);
+			path = Aeon;
+			sourceTree = "<group>";
+		};
+		383192DA24B400FA0032C26B /* AeonTests */ = {
+			isa = PBXGroup;
+			children = (
+				383192DB24B400FA0032C26B /* AeonTests.m */,
+				383192DD24B400FA0032C26B /* Info.plist */,
+			);
+			path = AeonTests;
+			sourceTree = "<group>";
+		};
+		383192E524B400FA0032C26B /* AeonUITests */ = {
+			isa = PBXGroup;
+			children = (
+				383192E624B400FA0032C26B /* AeonUITests.m */,
+				383192E824B400FA0032C26B /* Info.plist */,
+			);
+			path = AeonUITests;
+			sourceTree = "<group>";
+		};
+		383192F424B401470032C26B /* DataModel */ = {
+			isa = PBXGroup;
+			children = (
+				383192BC24B400F80032C26B /* Aeon.xcdatamodeld */,
+			);
+			path = DataModel;
+			sourceTree = "<group>";
+		};
+		383192F524B401590032C26B /* DATA */ = {
+			isa = PBXGroup;
+			children = (
+				383192F424B401470032C26B /* DataModel */,
+			);
+			path = DATA;
+			sourceTree = "<group>";
+		};
+		383192F624B4016F0032C26B /* ApplicationSupport */ = {
+			isa = PBXGroup;
+			children = (
+				383192B924B400F80032C26B /* AppDelegate.h */,
+				383192BA24B400F80032C26B /* AppDelegate.m */,
+				383192BF24B400F80032C26B /* SceneDelegate.h */,
+				383192C024B400F80032C26B /* SceneDelegate.m */,
+				383192D124B400FA0032C26B /* main.m */,
+			);
+			path = ApplicationSupport;
+			sourceTree = "<group>";
+		};
+		383192F724B401E90032C26B /* GUI */ = {
+			isa = PBXGroup;
+			children = (
+				383192C824B400F80032C26B /* Main.storyboard */,
+				383192CB24B400FA0032C26B /* Assets.xcassets */,
+				383192CD24B400FA0032C26B /* LaunchScreen.storyboard */,
+			);
+			path = GUI;
+			sourceTree = "<group>";
+		};
+		383192F824B402B60032C26B /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				383192F924B402C60032C26B /* PrimeView */,
+				383192FA24B402D40032C26B /* MapView */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		383192F924B402C60032C26B /* PrimeView */ = {
+			isa = PBXGroup;
+			children = (
+				383192C224B400F80032C26B /* KDVPrimeViewController.h */,
+				383192C324B400F80032C26B /* KDVPrimeViewController.m */,
+			);
+			path = PrimeView;
+			sourceTree = "<group>";
+		};
+		383192FA24B402D40032C26B /* MapView */ = {
+			isa = PBXGroup;
+			children = (
+				383192C524B400F80032C26B /* KDVMapViewController.h */,
+				383192C624B400F80032C26B /* KDVMapViewController.m */,
+			);
+			path = MapView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		383192B524B400F80032C26B /* Aeon */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 383192EB24B400FA0032C26B /* Build configuration list for PBXNativeTarget "Aeon" */;
+			buildPhases = (
+				383192B224B400F80032C26B /* Sources */,
+				383192B324B400F80032C26B /* Frameworks */,
+				383192B424B400F80032C26B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Aeon;
+			productName = Aeon;
+			productReference = 383192B624B400F80032C26B /* Aeon.app */;
+			productType = "com.apple.product-type.application";
+		};
+		383192D624B400FA0032C26B /* AeonTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 383192EE24B400FA0032C26B /* Build configuration list for PBXNativeTarget "AeonTests" */;
+			buildPhases = (
+				383192D324B400FA0032C26B /* Sources */,
+				383192D424B400FA0032C26B /* Frameworks */,
+				383192D524B400FA0032C26B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				383192D924B400FA0032C26B /* PBXTargetDependency */,
+			);
+			name = AeonTests;
+			productName = AeonTests;
+			productReference = 383192D724B400FA0032C26B /* AeonTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		383192E124B400FA0032C26B /* AeonUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 383192F124B400FA0032C26B /* Build configuration list for PBXNativeTarget "AeonUITests" */;
+			buildPhases = (
+				383192DE24B400FA0032C26B /* Sources */,
+				383192DF24B400FA0032C26B /* Frameworks */,
+				383192E024B400FA0032C26B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				383192E424B400FA0032C26B /* PBXTargetDependency */,
+			);
+			name = AeonUITests;
+			productName = AeonUITests;
+			productReference = 383192E224B400FA0032C26B /* AeonUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		383192AE24B400F80032C26B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = "Kenn Villegas";
+				TargetAttributes = {
+					383192B524B400F80032C26B = {
+						CreatedOnToolsVersion = 11.5;
+					};
+					383192D624B400FA0032C26B = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = 383192B524B400F80032C26B;
+					};
+					383192E124B400FA0032C26B = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = 383192B524B400F80032C26B;
+					};
+				};
+			};
+			buildConfigurationList = 383192B124B400F80032C26B /* Build configuration list for PBXProject "Aeon" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 383192AD24B400F80032C26B;
+			productRefGroup = 383192B724B400F80032C26B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				383192B524B400F80032C26B /* Aeon */,
+				383192D624B400FA0032C26B /* AeonTests */,
+				383192E124B400FA0032C26B /* AeonUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		383192B424B400F80032C26B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				383192CF24B400FA0032C26B /* LaunchScreen.storyboard in Resources */,
+				383192CC24B400FA0032C26B /* Assets.xcassets in Resources */,
+				383192CA24B400F80032C26B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		383192D524B400FA0032C26B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		383192E024B400FA0032C26B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		383192B224B400F80032C26B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				383192C724B400F80032C26B /* KDVMapViewController.m in Sources */,
+				383192C424B400F80032C26B /* KDVPrimeViewController.m in Sources */,
+				383192BE24B400F80032C26B /* Aeon.xcdatamodeld in Sources */,
+				383192C124B400F80032C26B /* SceneDelegate.m in Sources */,
+				383192D224B400FA0032C26B /* main.m in Sources */,
+				383192BB24B400F80032C26B /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		383192D324B400FA0032C26B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				383192DC24B400FA0032C26B /* AeonTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		383192DE24B400FA0032C26B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				383192E724B400FA0032C26B /* AeonUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		383192D924B400FA0032C26B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 383192B524B400F80032C26B /* Aeon */;
+			targetProxy = 383192D824B400FA0032C26B /* PBXContainerItemProxy */;
+		};
+		383192E424B400FA0032C26B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 383192B524B400F80032C26B /* Aeon */;
+			targetProxy = 383192E324B400FA0032C26B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		383192C824B400F80032C26B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				383192C924B400F80032C26B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		383192CD24B400FA0032C26B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				383192CE24B400FA0032C26B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		383192E924B400FA0032C26B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		383192EA24B400FA0032C26B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		383192EC24B400FA0032C26B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LQ75G5YK98;
+				INFOPLIST_FILE = Aeon/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.K3nV.Aeon;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		383192ED24B400FA0032C26B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LQ75G5YK98;
+				INFOPLIST_FILE = Aeon/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.K3nV.Aeon;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		383192EF24B400FA0032C26B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LQ75G5YK98;
+				INFOPLIST_FILE = AeonTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.K3nV.AeonTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Aeon.app/Aeon";
+			};
+			name = Debug;
+		};
+		383192F024B400FA0032C26B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LQ75G5YK98;
+				INFOPLIST_FILE = AeonTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.K3nV.AeonTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Aeon.app/Aeon";
+			};
+			name = Release;
+		};
+		383192F224B400FA0032C26B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LQ75G5YK98;
+				INFOPLIST_FILE = AeonUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.K3nV.AeonUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Aeon;
+			};
+			name = Debug;
+		};
+		383192F324B400FA0032C26B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LQ75G5YK98;
+				INFOPLIST_FILE = AeonUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.K3nV.AeonUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Aeon;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		383192B124B400F80032C26B /* Build configuration list for PBXProject "Aeon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				383192E924B400FA0032C26B /* Debug */,
+				383192EA24B400FA0032C26B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		383192EB24B400FA0032C26B /* Build configuration list for PBXNativeTarget "Aeon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				383192EC24B400FA0032C26B /* Debug */,
+				383192ED24B400FA0032C26B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		383192EE24B400FA0032C26B /* Build configuration list for PBXNativeTarget "AeonTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				383192EF24B400FA0032C26B /* Debug */,
+				383192F024B400FA0032C26B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		383192F124B400FA0032C26B /* Build configuration list for PBXNativeTarget "AeonUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				383192F224B400FA0032C26B /* Debug */,
+				383192F324B400FA0032C26B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		383192BC24B400F80032C26B /* Aeon.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				383192BD24B400F80032C26B /* Aeon.xcdatamodel */,
+			);
+			currentVersion = 383192BD24B400F80032C26B /* Aeon.xcdatamodel */;
+			path = Aeon.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 383192AE24B400F80032C26B /* Project object */;
+}
